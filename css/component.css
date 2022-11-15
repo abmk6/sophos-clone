@@ -1,0 +1,44 @@
+/* heading component */
+/* this stylesheet for head of sections */
+.main-heading{
+    padding-top: 50px;
+    text-align: center;
+}
+.main-heading h2{
+    position:relative ;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.main-heading h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform:translatex(-50%);
+    height: 2px;
+    width: 120px;
+    background-color: rgb(29, 27, 27);
+    bottom: -20px;
+
+}
+.main-heading h2::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(29, 27, 27);
+    border-radius: 50%;
+    bottom: -25px;
+    background-color: #c4e6f5;
+}
+.main-heading p{
+    width: 400px;
+    margin: 0 auto 100px;
+    line-height: 1.5;
+    font-size: 13px;
+    max-width: 100%;
+    color: #777;
+}
