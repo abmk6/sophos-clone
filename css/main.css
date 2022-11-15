@@ -144,7 +144,7 @@ nav .form i{
 /*end of header bar */
 .landing  {
     min-height: 100vh;
-    background-image: url(/images/landing.jpg);
+    background-image: url(../images/landing.jpg);
     background-color: #221f1f;
     background-size: cover;
     position: relative;
@@ -275,7 +275,7 @@ nav .form i{
     padding-bottom: var(--sections-padding);
     height: 600px;
     position: relative;
-    background-image: url("/images/Cyber-Security-cover.jpg");
+    background-image: url("../images/Cyber-Security-cover.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -484,7 +484,7 @@ nav .form i{
     padding-top: var(--sections-padding);
     padding-bottom: var(--sections-padding);
     text-align: center;
-    background-image: url(/images/Cyber-Security-Cover.jpg);
+    background-image: url(../images/Cyber-Security-Cover.jpg);
     background-size: cover;
     position: relative;
 }
@@ -670,7 +670,7 @@ nav .form i{
     padding-bottom: var(--sections-padding);
     /****/
     color: white;
-    background-image: url(/images/Cyber-Security-Cover.jpg);
+    background-image: url(../images/Cyber-Security-Cover.jpg);
     background-size: cover;
     height:250px;
     position: relative;
@@ -791,7 +791,7 @@ nav .form i{
 .subscribe{
     padding-top: var(--sections-padding);
     padding-bottom: var(--sections-padding);
-    background-image: url(/images/sub.jpg);
+    background-image: url(../images/sub.jpg);
     background-size: cover;
     color:white;
     position: relative;
@@ -959,7 +959,7 @@ nav .form i{
 .footer{
     padding-top:calc(var(--sections-padding) / 2) ;
     padding-bottom: calc(var(--sections-padding) / 2) ;
-    background-image: url(/images/sub.jpg);
+    background-image: url(../images/sub.jpg);
     background-size: cover;
     color: white;
     position: relative;
